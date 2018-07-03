@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>XCTest Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/XCTest" class="dashAnchor"></a>
+    <a title="XCTest Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">YandexMoneyTestInstrumentsApi Docs</a> (100% documented)</p>
+        <p class="header-right"><a href="https://github.com/yandex-money/test-instruments-api-swift"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fyandex%2Dmoney%2Egithub%2Eio%2Fdocsets%2FYandexMoneyTestInstrumentsApi%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">YandexMoneyTestInstrumentsApi Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        XCTest Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ApiMethodTestCase.html">ApiMethodTestCase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MappingApiMethods.html">MappingApiMethods</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MappingApiModels.html">MappingApiModels</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NetworkTest.html">NetworkTest</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Dictionary.html">Dictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/XCTest.html">XCTest</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/StubsResponse.html">StubsResponse</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:29YandexMoneyTestInstrumentsApi17ValidationClosurea">ValidationClosure</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>XCTest</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">XCTest</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So6XCTestC29YandexMoneyTestInstrumentsApiE32XCTAssertEqualJsonRepresentationyx_10Foundation4DataV4datats9EncodableRzlF"></a>
+                    <a name="//apple_ref/swift/Method/XCTAssertEqualJsonRepresentation(_:data:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So6XCTestC29YandexMoneyTestInstrumentsApiE32XCTAssertEqualJsonRepresentationyx_10Foundation4DataV4datats9EncodableRzlF">XCTAssertEqualJsonRepresentation(_:data:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Asserts that two instances are equal.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="kt">XCTAssertEqualJsonRepresentation</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">instance</span><span class="p">:</span> <span class="kt">T</span><span class="p">,</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">Data</span><span class="p">)</span> <span class="k">where</span> <span class="kt">T</span> <span class="p">:</span> <span class="kt">Encodable</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>instance</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Type of instance.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>data</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Instance represented in Data from JSON.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/yandex-money" target="_blank" rel="external">Yandex Money</a>. All rights reserved. (Last updated: 2018-07-03)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

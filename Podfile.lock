@@ -1,0 +1,41 @@
+PODS:
+  - FunctionalSwift (1.0.5)
+  - OHHTTPStubs (6.1.0):
+    - OHHTTPStubs/Default (= 6.1.0)
+  - OHHTTPStubs/Core (6.1.0)
+  - OHHTTPStubs/Default (6.1.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (6.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (6.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (6.1.0)
+  - SwiftLint (0.25.1)
+  - YandexMoneyCoreApi (1.0.1):
+    - FunctionalSwift (~> 1.0.5)
+  - YandexMoneyTestInstrumentsApi (1.0.0):
+    - FunctionalSwift (~> 1.0.0)
+    - OHHTTPStubs (~> 6.1.0)
+    - YandexMoneyCoreApi (~> 1.0.0)
+
+DEPENDENCIES:
+  - SwiftLint
+  - YandexMoneyTestInstrumentsApi (from `./`)
+
+EXTERNAL SOURCES:
+  YandexMoneyTestInstrumentsApi:
+    :path: ./
+
+SPEC CHECKSUMS:
+  FunctionalSwift: 89cef31016cbc9fcdd49ec04e5831ed5f51244bb
+  OHHTTPStubs: 1e21c7d2c084b8153fc53d48400d8919d2d432d0
+  SwiftLint: ce933681be10c3266e82576dad676fa815a602e9
+  YandexMoneyCoreApi: fdb12aa2f53bf31dd0c9a9d50c399d69e79a149f
+  YandexMoneyTestInstrumentsApi: 34797e80b1b7bd3415b9357e5b3d69400f49226e
+
+PODFILE CHECKSUM: 241ac536fdbd4d16a238ed772debf26b3850bc38
+
+COCOAPODS: 1.4.0
