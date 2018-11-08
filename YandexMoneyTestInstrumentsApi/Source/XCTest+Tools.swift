@@ -7,8 +7,11 @@ public extension XCTest {
     /// - Parameters:
     ///   - instance: Type of instance.
     ///   - data: Instance represented in Data from JSON.
-    func XCTAssertEqualJsonRepresentation<T>(_ instance: T, data: Data) where T: Encodable {
-        guard let instanceData = try? JSONEncoder().encode(instance),
+    ///   - jsonEncoder: Encoder for creating JSON data from instance.
+    func XCTAssertEqualJsonRepresentation<T>(_ instance: T,
+                                             data: Data,
+                                             jsonEncoder: JSONEncoder = JSONEncoder()) where T: Encodable {
+        guard let instanceData = try? jsonEncoder.encode(instance),
               let _instanceJson = try? JSONSerialization.jsonObject(with: instanceData),
               let instanceJson = _instanceJson as? [AnyHashable: Any] else {
             XCTFail("\(type(of: instance)) has no Json representation")
