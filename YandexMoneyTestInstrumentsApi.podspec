@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'YandexMoneyTestInstrumentsApi'
-    s.version      = '1.2.1'
+    s.version      = '1.2.2'
     s.homepage  = 'https://github.com/yandex-money/test-instruments-api-swift'
     s.license      = {
         :type => "MIT",
@@ -23,6 +23,6 @@ Pod::Spec.new do |s|
     s.ios.user_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PLATFORM_DIR)/Developer/Library/Frameworks' }
 
     s.ios.dependency 'FunctionalSwift', '~> 1.0.0'
-    s.ios.dependency 'YandexMoneyCoreApi', '~> 1.2.0'
+    s.ios.dependency 'YandexMoneyCoreApi', '~> 1.3'
     s.ios.dependency 'OHHTTPStubs', '~> 6.1.0'
 end
