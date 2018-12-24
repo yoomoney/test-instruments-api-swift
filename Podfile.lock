@@ -13,12 +13,12 @@ PODS:
   - OHHTTPStubs/NSURLSession (6.1.0):
     - OHHTTPStubs/Core
   - OHHTTPStubs/OHPathHelpers (6.1.0)
-  - YandexMoneyCoreApi (1.2.0):
+  - YandexMoneyCoreApi (1.3.0):
     - FunctionalSwift (~> 1.0.5)
-  - YandexMoneyTestInstrumentsApi (1.2.1):
+  - YandexMoneyTestInstrumentsApi (1.2.2):
     - FunctionalSwift (~> 1.0.0)
     - OHHTTPStubs (~> 6.1.0)
-    - YandexMoneyCoreApi (~> 1.2.0)
+    - YandexMoneyCoreApi (~> 1.3)
 
 DEPENDENCIES:
   - YandexMoneyTestInstrumentsApi (from `./`)
@@ -30,8 +30,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FunctionalSwift: 89cef31016cbc9fcdd49ec04e5831ed5f51244bb
   OHHTTPStubs: 1e21c7d2c084b8153fc53d48400d8919d2d432d0
-  YandexMoneyCoreApi: 84b8cb6c2a150d7b6755fb28afd1812b47c3568d
-  YandexMoneyTestInstrumentsApi: 6653d213f3fda654ff233ced3dee2c2de5a19f61
+  YandexMoneyCoreApi: 301731721e8c5d5fb77319e64ad4c8e4b782eb7e
+  YandexMoneyTestInstrumentsApi: e0110dd55b55a6b674cb1982514ed224d35cdf90
 
 PODFILE CHECKSUM: 5d9c71645c836200eb4d982e0e02c19bebbbabea
 
