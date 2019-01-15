@@ -73,7 +73,7 @@ open class MappingApiModels: XCTestCase {
     ///            instance: JSON decoded instance from data
     public func mockWithType<T>(_ type: T.Type, number: Int) -> [(data: Data, instance: T)]? where T: Decodable {
         let typeString = String(describing: type)
-        let result = (0..<number).flatMap { mock(type: type, fileName: typeString + "\($0)") }
+        let result = (0..<number).compactMap { mock(type: type, fileName: typeString + "\($0)") }
         return result.count == number ? result : nil
     }
 
