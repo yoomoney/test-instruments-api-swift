@@ -1,5 +1,5 @@
 PODS:
-  - FunctionalSwift (1.0.5)
+  - FunctionalSwift (1.1.1)
   - OHHTTPStubs (6.1.0):
     - OHHTTPStubs/Default (= 6.1.0)
   - OHHTTPStubs/Core (6.1.0)
@@ -13,26 +13,32 @@ PODS:
   - OHHTTPStubs/NSURLSession (6.1.0):
     - OHHTTPStubs/Core
   - OHHTTPStubs/OHPathHelpers (6.1.0)
-  - YandexMoneyCoreApi (1.3.0):
-    - FunctionalSwift (~> 1.0.5)
-  - YandexMoneyTestInstrumentsApi (1.2.2):
-    - FunctionalSwift (~> 1.0.0)
+  - YandexMoneyCoreApi (1.3.1):
+    - FunctionalSwift (~> 1.1.0)
+  - YandexMoneyTestInstrumentsApi (1.2.3):
+    - FunctionalSwift (~> 1.1.0)
     - OHHTTPStubs (~> 6.1.0)
-    - YandexMoneyCoreApi (~> 1.3)
+    - YandexMoneyCoreApi (~> 1.3.0)
 
 DEPENDENCIES:
   - YandexMoneyTestInstrumentsApi (from `./`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FunctionalSwift
+    - OHHTTPStubs
+    - YandexMoneyCoreApi
+
 EXTERNAL SOURCES:
   YandexMoneyTestInstrumentsApi:
-    :path: ./
+    :path: "./"
 
 SPEC CHECKSUMS:
-  FunctionalSwift: 89cef31016cbc9fcdd49ec04e5831ed5f51244bb
+  FunctionalSwift: ccb7b6b0918f3d189fa12ce1f6ba716d8053b19a
   OHHTTPStubs: 1e21c7d2c084b8153fc53d48400d8919d2d432d0
-  YandexMoneyCoreApi: 301731721e8c5d5fb77319e64ad4c8e4b782eb7e
-  YandexMoneyTestInstrumentsApi: e0110dd55b55a6b674cb1982514ed224d35cdf90
+  YandexMoneyCoreApi: 4992ee490dbce771904df1f4dcdd0dd750bc9599
+  YandexMoneyTestInstrumentsApi: 1d78371774d77d0ea98265d8a93f6c7df102bf2c
 
 PODFILE CHECKSUM: 5d9c71645c836200eb4d982e0e02c19bebbbabea
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3
