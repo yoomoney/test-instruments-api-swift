@@ -1,5 +1,5 @@
 language: objective-c
-osx_image: xcode10
+osx_image: xcode10.2
 xcode_workspace: YandexMoneyTestInstrumentsApi.xcworkspace
 xcode_scheme: YMTestInstrumentsApiExamplePods
 cache:
@@ -12,7 +12,6 @@ notifications:
     secure: DIu9OyBBR/0H2GsBkJV2Y8yQOjKShod8It6EdLv1oACdcsFsqARpX++Qb8KCpQej9HI8Baw3dmemUUGQdOpB4Rs4M1avyCEuQO/XbwKAqCIKfxkL4oxUd9DrTdOxV/WFLjwWL++qK6UOQXPc/Rx69vt2YHTFsQYfE+6DTtmd7tcZeqMlPJ6BrUl6CHqghB1oNP0TAYPaRoBfR9GlDrAG5ei0CkvZGf/ETBckleCk/B12NMSwUHoDzLGOrIuGD/IUuBbXvczGRFMMCthvD3/rqrSga0EVRg9zWhEf5nf6xwJ20BR9oOp3uzrZWJNsmUPNTKKHgOJJj6TH078BvRG4QxtbAuXQBZgShHz3A73oV7zUQatTKBvJ3RWI2scLa6GdKBjGEBXcBl34H+taSKUU89GV3lqc7jsx5lw0QWbQDxQL/bvCUTXbcs42PYtbrwEwDjmYWV1xHuceWqhZaaZmGljj+41YIljR54Cw2VNYtsXxFI3jiiUupoQM5quRRr2z+ld/p3WA1PKLyXrCued9YZzAlVm17uVhEFc1PZlKeVhODET7opZEXy/29lXoA4s56L5MNWMGrcT/0bOgzZAycBOznoDiqGFb/4Yr/d/cZrTvp2Kns1qiKMd56L0W6HUtpS5tmEqgM8mKGvWtj1lD8UXni9TgsZkKb+CNEQlw6XA=
 before_install:
 - rvm use 2.5.0 --default --install --fuzzy
-- brew update && brew bundle
 - bundle install --jobs=3 --retry=3 --deployment
 - pushd .
 - rvm use default
