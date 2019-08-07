@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'YandexMoneyTestInstrumentsApi'
-    s.version      = '1.4.0'
+    s.version      = '1.4.1'
     s.homepage  = 'https://github.com/yandex-money/test-instruments-api-swift'
     s.license      = {
         :type => "MIT",
