@@ -1,2 +1,2 @@
 github "AliSoftware/OHHTTPStubs" ~> 8.0.0
-github "yandex-money/core-api-swift" ~> 1.7.0
+github "yandex-money/core-api-swift" ~> 1.8.0
