@@ -1,0 +1,1287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30E53A6B20338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E53A6920338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30E53A7A20338BF500EAE5EF /* YooMoneyTestInstrumentsApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E53A7920338BF500EAE5EF /* YooMoneyTestInstrumentsApiTests.swift */; };
+		30E53A8A20338C3100EAE5EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E53A8920338C3100EAE5EF /* AppDelegate.swift */; };
+		30E53A8C20338C3100EAE5EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E53A8B20338C3100EAE5EF /* ViewController.swift */; };
+		30E53A8F20338C3100EAE5EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E53A8D20338C3100EAE5EF /* Main.storyboard */; };
+		30E53A9120338C3100EAE5EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E53A9020338C3100EAE5EF /* Assets.xcassets */; };
+		30E53A9420338C3100EAE5EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E53A9220338C3100EAE5EF /* LaunchScreen.storyboard */; };
+		30E53A9C20338C4200EAE5EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E53A8B20338C3100EAE5EF /* ViewController.swift */; };
+		30E53A9D20338C4200EAE5EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E53A8920338C3100EAE5EF /* AppDelegate.swift */; };
+		30E53AA020338C4200EAE5EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E53A9220338C3100EAE5EF /* LaunchScreen.storyboard */; };
+		30E53AA120338C4200EAE5EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E53A9020338C3100EAE5EF /* Assets.xcassets */; };
+		30E53AA220338C4200EAE5EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E53A8D20338C3100EAE5EF /* Main.storyboard */; };
+		30E53BBE20348F1100EAE5EF /* YooMoneyTestInstrumentsApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E53A6620338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.framework */; };
+		402EB00906051386FFB10F24 /* ApiMethodTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402EB404F7625DF8271E9077 /* ApiMethodTestCase.swift */; };
+		402EB14686142090FBA266E7 /* MappingApiMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402EBA78FF713B69BBFBA326 /* MappingApiMethods.swift */; };
+		402EB169E4BC8FB4F5B752C7 /* NetworkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402EB6FE1ECA8194654F9E66 /* NetworkTest.swift */; };
+		402EB5F50E799BD63BC1F87E /* MappingApiModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402EB9F86D7911619238A627 /* MappingApiModels.swift */; };
+		402EB634590364692A18002E /* StubsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402EBEAD1EA86A70FE55A163 /* StubsResponse.swift */; };
+		402EB857545B15DC3591895A /* HostProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402EBAF38A701DBC508B91BB /* HostProvider.swift */; };
+		402EBB344917124AF562D32E /* XCTest+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402EB2C678E8C044A133F505 /* XCTest+Tools.swift */; };
+		402EBF0ADDFB89771AACBB39 /* MappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402EB4DD7C684D68C17F4CA7 /* MappingTests.swift */; };
+		C24ABA45C4BED21330A87B42 /* Pods_YooMoneyTestInstrumentsApiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAB38F2FC2912339042D7EA /* Pods_YooMoneyTestInstrumentsApiTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30E53A7D20338BF500EAE5EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30E53A5D20338A4F00EAE5EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30E53A6520338A4F00EAE5EF;
+			remoteInfo = YooMoneyTestInstrumentsApi;
+		};
+		30E53AE12033983F00EAE5EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30E53A5D20338A4F00EAE5EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30E53A8620338C3100EAE5EF;
+			remoteInfo = YooMoneyTestInstrumentsApiExamplePods;
+		};
+		30E53AE42033992400EAE5EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30E53A5D20338A4F00EAE5EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30E53A6520338A4F00EAE5EF;
+			remoteInfo = YooMoneyTestInstrumentsApi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		30E53B252033AC0000EAE5EF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03988FE5BF137EF464BA8641 /* Pods-YooMoneyTestInstrumentsApiTests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YooMoneyTestInstrumentsApiTests.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-YooMoneyTestInstrumentsApiTests/Pods-YooMoneyTestInstrumentsApiTests.appstore.xcconfig"; sourceTree = "<group>"; };
+		05DCB616FBAD89930E3E7137 /* Pods-YooMoneyTestInstrumentsApiTests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YooMoneyTestInstrumentsApiTests.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-YooMoneyTestInstrumentsApiTests/Pods-YooMoneyTestInstrumentsApiTests.appstore.xcconfig"; sourceTree = "<group>"; };
+		30564C80255C02BB000A7ED3 /* CarthageInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CarthageInfo.plist; sourceTree = "<group>"; };
+		30E53A6620338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YooMoneyTestInstrumentsApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E53A6920338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YooMoneyTestInstrumentsApi.h; sourceTree = "<group>"; };
+		30E53A6A20338A4F00EAE5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E53A7720338BF500EAE5EF /* YooMoneyTestInstrumentsApiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YooMoneyTestInstrumentsApiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E53A7920338BF500EAE5EF /* YooMoneyTestInstrumentsApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YooMoneyTestInstrumentsApiTests.swift; sourceTree = "<group>"; };
+		30E53A7B20338BF500EAE5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E53A8720338C3100EAE5EF /* YooMoneyTestInstrumentsApiExamplePods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YooMoneyTestInstrumentsApiExamplePods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E53A8920338C3100EAE5EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30E53A8B20338C3100EAE5EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30E53A8E20338C3100EAE5EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30E53A9020338C3100EAE5EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30E53A9320338C3100EAE5EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30E53A9520338C3100EAE5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E53AA720338C4200EAE5EF /* YooMoneyTestInstrumentsApiExampleCarthage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YooMoneyTestInstrumentsApiExampleCarthage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E53AA920338C9100EAE5EF /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		30E53AAA20338C9100EAE5EF /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		30E53AAB20338C9100EAE5EF /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		30E53AAC20338C9200EAE5EF /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		30E53AAE20338C9200EAE5EF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		30E53AB02033945300EAE5EF /* YooMoneyTestInstrumentsApi.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = YooMoneyTestInstrumentsApi.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		402EB2C678E8C044A133F505 /* XCTest+Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTest+Tools.swift"; sourceTree = "<group>"; };
+		402EB404F7625DF8271E9077 /* ApiMethodTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiMethodTestCase.swift; sourceTree = "<group>"; };
+		402EB4DD7C684D68C17F4CA7 /* MappingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MappingTests.swift; sourceTree = "<group>"; };
+		402EB6FE1ECA8194654F9E66 /* NetworkTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTest.swift; sourceTree = "<group>"; };
+		402EB9F86D7911619238A627 /* MappingApiModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MappingApiModels.swift; sourceTree = "<group>"; };
+		402EBA78FF713B69BBFBA326 /* MappingApiMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MappingApiMethods.swift; sourceTree = "<group>"; };
+		402EBAF38A701DBC508B91BB /* HostProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostProvider.swift; sourceTree = "<group>"; };
+		402EBEAD1EA86A70FE55A163 /* StubsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubsResponse.swift; sourceTree = "<group>"; };
+		576156924FAF20291CBCE765 /* Pods-YooMoneyTestInstrumentsApiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YooMoneyTestInstrumentsApiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YooMoneyTestInstrumentsApiTests/Pods-YooMoneyTestInstrumentsApiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EAB38F2FC2912339042D7EA /* Pods_YooMoneyTestInstrumentsApiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YooMoneyTestInstrumentsApiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDF2A23D281A398466602BA /* Pods_YooMoneyTestInstrumentsApiExamplePods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YooMoneyTestInstrumentsApiExamplePods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92319F32C754945F71C39215 /* Pods-YooMoneyTestInstrumentsApiTests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YooMoneyTestInstrumentsApiTests.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-YooMoneyTestInstrumentsApiTests/Pods-YooMoneyTestInstrumentsApiTests.adhoc.xcconfig"; sourceTree = "<group>"; };
+		B8ABA2A92A490ABB3F1D8532 /* Pods-YooMoneyTestInstrumentsApiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YooMoneyTestInstrumentsApiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YooMoneyTestInstrumentsApiTests/Pods-YooMoneyTestInstrumentsApiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5633FB5A45345687FF7F5BE /* Pods-YooMoneyTestInstrumentsApiTests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YooMoneyTestInstrumentsApiTests.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-YooMoneyTestInstrumentsApiTests/Pods-YooMoneyTestInstrumentsApiTests.adhoc.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30E53A6220338A4F00EAE5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E53A7420338BF500EAE5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E53BBE20348F1100EAE5EF /* YooMoneyTestInstrumentsApi.framework in Frameworks */,
+				C24ABA45C4BED21330A87B42 /* Pods_YooMoneyTestInstrumentsApiTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E53A8420338C3100EAE5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E53A9E20338C4200EAE5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30E53A5C20338A4F00EAE5EF = {
+			isa = PBXGroup;
+			children = (
+				30E53AAB20338C9100EAE5EF /* Cartfile */,
+				30E53AAC20338C9200EAE5EF /* Gemfile */,
+				30E53AA920338C9100EAE5EF /* LICENSE */,
+				30E53AAA20338C9100EAE5EF /* Podfile */,
+				30E53AAE20338C9200EAE5EF /* README.md */,
+				30E53AB02033945300EAE5EF /* YooMoneyTestInstrumentsApi.podspec */,
+				30E53A6820338A4F00EAE5EF /* YooMoneyTestInstrumentsApi */,
+				30E53A7820338BF500EAE5EF /* YooMoneyTestInstrumentsApiTests */,
+				30E53A8820338C3100EAE5EF /* YooMoneyTestInstrumentsApiExample */,
+				30E53A6720338A4F00EAE5EF /* Products */,
+				C639D6EB9B275D6693702204 /* Pods */,
+				3E41A244D30C4963B70748E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30E53A6720338A4F00EAE5EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30E53A6620338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.framework */,
+				30E53A7720338BF500EAE5EF /* YooMoneyTestInstrumentsApiTests.xctest */,
+				30E53A8720338C3100EAE5EF /* YooMoneyTestInstrumentsApiExamplePods.app */,
+				30E53AA720338C4200EAE5EF /* YooMoneyTestInstrumentsApiExampleCarthage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30E53A6820338A4F00EAE5EF /* YooMoneyTestInstrumentsApi */ = {
+			isa = PBXGroup;
+			children = (
+				30E53A6920338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.h */,
+				30E53A6A20338A4F00EAE5EF /* Info.plist */,
+				402EB0FEB604428C92A2C618 /* Source */,
+			);
+			path = YooMoneyTestInstrumentsApi;
+			sourceTree = "<group>";
+		};
+		30E53A7820338BF500EAE5EF /* YooMoneyTestInstrumentsApiTests */ = {
+			isa = PBXGroup;
+			children = (
+				30E53A7920338BF500EAE5EF /* YooMoneyTestInstrumentsApiTests.swift */,
+				30E53A7B20338BF500EAE5EF /* Info.plist */,
+			);
+			path = YooMoneyTestInstrumentsApiTests;
+			sourceTree = "<group>";
+		};
+		30E53A8820338C3100EAE5EF /* YooMoneyTestInstrumentsApiExample */ = {
+			isa = PBXGroup;
+			children = (
+				30E53A8920338C3100EAE5EF /* AppDelegate.swift */,
+				30E53A8B20338C3100EAE5EF /* ViewController.swift */,
+				30E53A8D20338C3100EAE5EF /* Main.storyboard */,
+				30E53A9020338C3100EAE5EF /* Assets.xcassets */,
+				30E53A9220338C3100EAE5EF /* LaunchScreen.storyboard */,
+				30E53A9520338C3100EAE5EF /* Info.plist */,
+				30564C80255C02BB000A7ED3 /* CarthageInfo.plist */,
+			);
+			path = YooMoneyTestInstrumentsApiExample;
+			sourceTree = "<group>";
+		};
+		3E41A244D30C4963B70748E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DDF2A23D281A398466602BA /* Pods_YooMoneyTestInstrumentsApiExamplePods.framework */,
+				5EAB38F2FC2912339042D7EA /* Pods_YooMoneyTestInstrumentsApiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		402EB0FEB604428C92A2C618 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				402EB6FE1ECA8194654F9E66 /* NetworkTest.swift */,
+				402EBEAD1EA86A70FE55A163 /* StubsResponse.swift */,
+				402EB404F7625DF8271E9077 /* ApiMethodTestCase.swift */,
+				402EB2C678E8C044A133F505 /* XCTest+Tools.swift */,
+				402EBA78FF713B69BBFBA326 /* MappingApiMethods.swift */,
+				402EB4DD7C684D68C17F4CA7 /* MappingTests.swift */,
+				402EB9F86D7911619238A627 /* MappingApiModels.swift */,
+				402EBAF38A701DBC508B91BB /* HostProvider.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C639D6EB9B275D6693702204 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				576156924FAF20291CBCE765 /* Pods-YooMoneyTestInstrumentsApiTests.debug.xcconfig */,
+				C5633FB5A45345687FF7F5BE /* Pods-YooMoneyTestInstrumentsApiTests.adhoc.xcconfig */,
+				03988FE5BF137EF464BA8641 /* Pods-YooMoneyTestInstrumentsApiTests.appstore.xcconfig */,
+				B8ABA2A92A490ABB3F1D8532 /* Pods-YooMoneyTestInstrumentsApiTests.debug.xcconfig */,
+				92319F32C754945F71C39215 /* Pods-YooMoneyTestInstrumentsApiTests.adhoc.xcconfig */,
+				05DCB616FBAD89930E3E7137 /* Pods-YooMoneyTestInstrumentsApiTests.appstore.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30E53A6320338A4F00EAE5EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E53A6B20338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		30E53A6520338A4F00EAE5EF /* YooMoneyTestInstrumentsApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E53A6E20338A4F00EAE5EF /* Build configuration list for PBXNativeTarget "YooMoneyTestInstrumentsApi" */;
+			buildPhases = (
+				30E53A6120338A4F00EAE5EF /* Sources */,
+				30E53A6220338A4F00EAE5EF /* Frameworks */,
+				30E53A6320338A4F00EAE5EF /* Headers */,
+				30E53A6420338A4F00EAE5EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YooMoneyTestInstrumentsApi;
+			productName = YooMoneyTestInstrumentsApi;
+			productReference = 30E53A6620338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		30E53A7620338BF500EAE5EF /* YooMoneyTestInstrumentsApiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E53A7F20338BF500EAE5EF /* Build configuration list for PBXNativeTarget "YooMoneyTestInstrumentsApiTests" */;
+			buildPhases = (
+				79A36C88A85167D53F61A023 /* [CP] Check Pods Manifest.lock */,
+				30E53A7320338BF500EAE5EF /* Sources */,
+				30E53A7420338BF500EAE5EF /* Frameworks */,
+				30E53A7520338BF500EAE5EF /* Resources */,
+				37A32744FB7698C044E0C670 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30E53A7E20338BF500EAE5EF /* PBXTargetDependency */,
+				30E53AE22033983F00EAE5EF /* PBXTargetDependency */,
+			);
+			name = YooMoneyTestInstrumentsApiTests;
+			productName = YooMoneyTestInstrumentsApiTests;
+			productReference = 30E53A7720338BF500EAE5EF /* YooMoneyTestInstrumentsApiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30E53A8620338C3100EAE5EF /* YooMoneyTestInstrumentsApiExamplePods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E53A9620338C3100EAE5EF /* Build configuration list for PBXNativeTarget "YooMoneyTestInstrumentsApiExamplePods" */;
+			buildPhases = (
+				30E53A8320338C3100EAE5EF /* Sources */,
+				30E53A8420338C3100EAE5EF /* Frameworks */,
+				30E53A8520338C3100EAE5EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YooMoneyTestInstrumentsApiExamplePods;
+			productName = YooMoneyTestInstrumentsApiExample;
+			productReference = 30E53A8720338C3100EAE5EF /* YooMoneyTestInstrumentsApiExamplePods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30E53A9A20338C4200EAE5EF /* YooMoneyTestInstrumentsApiExampleCarthage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E53AA320338C4200EAE5EF /* Build configuration list for PBXNativeTarget "YooMoneyTestInstrumentsApiExampleCarthage" */;
+			buildPhases = (
+				30E53A9B20338C4200EAE5EF /* Sources */,
+				30E53A9E20338C4200EAE5EF /* Frameworks */,
+				30E53A9F20338C4200EAE5EF /* Resources */,
+				30E53B252033AC0000EAE5EF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30E53AE52033992400EAE5EF /* PBXTargetDependency */,
+			);
+			name = YooMoneyTestInstrumentsApiExampleCarthage;
+			productName = YooMoneyTestInstrumentsApiExample;
+			productReference = 30E53AA720338C4200EAE5EF /* YooMoneyTestInstrumentsApiExampleCarthage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30E53A5D20338A4F00EAE5EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "YooMoney";
+				TargetAttributes = {
+					30E53A6520338A4F00EAE5EF = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1030;
+						ProvisioningStyle = Automatic;
+					};
+					30E53A7620338BF500EAE5EF = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1030;
+						ProvisioningStyle = Automatic;
+					};
+					30E53A8620338C3100EAE5EF = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1030;
+						ProvisioningStyle = Automatic;
+					};
+					30E53A9A20338C4200EAE5EF = {
+						LastSwiftMigration = 1030;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 30E53A6020338A4F00EAE5EF /* Build configuration list for PBXProject "YooMoneyTestInstrumentsApi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30E53A5C20338A4F00EAE5EF;
+			productRefGroup = 30E53A6720338A4F00EAE5EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30E53A6520338A4F00EAE5EF /* YooMoneyTestInstrumentsApi */,
+				30E53A7620338BF500EAE5EF /* YooMoneyTestInstrumentsApiTests */,
+				30E53A8620338C3100EAE5EF /* YooMoneyTestInstrumentsApiExamplePods */,
+				30E53A9A20338C4200EAE5EF /* YooMoneyTestInstrumentsApiExampleCarthage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30E53A6420338A4F00EAE5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E53A7520338BF500EAE5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E53A8520338C3100EAE5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E53A9420338C3100EAE5EF /* LaunchScreen.storyboard in Resources */,
+				30E53A9120338C3100EAE5EF /* Assets.xcassets in Resources */,
+				30E53A8F20338C3100EAE5EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E53A9F20338C4200EAE5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E53AA020338C4200EAE5EF /* LaunchScreen.storyboard in Resources */,
+				30E53AA120338C4200EAE5EF /* Assets.xcassets in Resources */,
+				30E53AA220338C4200EAE5EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37A32744FB7698C044E0C670 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YooMoneyTestInstrumentsApiTests/Pods-YooMoneyTestInstrumentsApiTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FunctionalSwift/FunctionalSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
+				"${BUILT_PRODUCTS_DIR}/YooMoneyCoreApi/YooMoneyCoreApi.framework",
+				"${BUILT_PRODUCTS_DIR}/YooMoneyTestInstrumentsApi/YooMoneyTestInstrumentsApi.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FunctionalSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YooMoneyCoreApi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YooMoneyTestInstrumentsApi.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YooMoneyTestInstrumentsApiTests/Pods-YooMoneyTestInstrumentsApiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79A36C88A85167D53F61A023 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YooMoneyTestInstrumentsApiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30E53A6120338A4F00EAE5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402EB169E4BC8FB4F5B752C7 /* NetworkTest.swift in Sources */,
+				402EB634590364692A18002E /* StubsResponse.swift in Sources */,
+				402EB00906051386FFB10F24 /* ApiMethodTestCase.swift in Sources */,
+				402EBB344917124AF562D32E /* XCTest+Tools.swift in Sources */,
+				402EB14686142090FBA266E7 /* MappingApiMethods.swift in Sources */,
+				402EBF0ADDFB89771AACBB39 /* MappingTests.swift in Sources */,
+				402EB5F50E799BD63BC1F87E /* MappingApiModels.swift in Sources */,
+				402EB857545B15DC3591895A /* HostProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E53A7320338BF500EAE5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E53A7A20338BF500EAE5EF /* YooMoneyTestInstrumentsApiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E53A8320338C3100EAE5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E53A8C20338C3100EAE5EF /* ViewController.swift in Sources */,
+				30E53A8A20338C3100EAE5EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E53A9B20338C4200EAE5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E53A9C20338C4200EAE5EF /* ViewController.swift in Sources */,
+				30E53A9D20338C4200EAE5EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30E53A7E20338BF500EAE5EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30E53A6520338A4F00EAE5EF /* YooMoneyTestInstrumentsApi */;
+			targetProxy = 30E53A7D20338BF500EAE5EF /* PBXContainerItemProxy */;
+		};
+		30E53AE22033983F00EAE5EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30E53A8620338C3100EAE5EF /* YooMoneyTestInstrumentsApiExamplePods */;
+			targetProxy = 30E53AE12033983F00EAE5EF /* PBXContainerItemProxy */;
+		};
+		30E53AE52033992400EAE5EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30E53A6520338A4F00EAE5EF /* YooMoneyTestInstrumentsApi */;
+			targetProxy = 30E53AE42033992400EAE5EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30E53A8D20338C3100EAE5EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E53A8E20338C3100EAE5EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30E53A9220338C3100EAE5EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E53A9320338C3100EAE5EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30E53A6C20338A4F00EAE5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30E53A6D20338A4F00EAE5EF /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = AdHoc;
+		};
+		30E53A6F20338A4F00EAE5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				INFOPLIST_FILE = YooMoneyTestInstrumentsApi/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yoo.money.api.testInstruments;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30E53A7020338A4F00EAE5EF /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				INFOPLIST_FILE = YooMoneyTestInstrumentsApi/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yoo.money.api.testInstruments;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = AdHoc;
+		};
+		30E53A7120338AB800EAE5EF /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = AppStore;
+		};
+		30E53A7220338AB800EAE5EF /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				INFOPLIST_FILE = YooMoneyTestInstrumentsApi/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yoo.money.api.testInstruments;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = AppStore;
+		};
+		30E53A8020338BF500EAE5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8ABA2A92A490ABB3F1D8532 /* Pods-YooMoneyTestInstrumentsApiTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2752592HU5;
+				INFOPLIST_FILE = YooMoneyTestInstrumentsApiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yoo.money.api.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30E53A8120338BF500EAE5EF /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92319F32C754945F71C39215 /* Pods-YooMoneyTestInstrumentsApiTests.adhoc.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2752592HU5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = YooMoneyTestInstrumentsApiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yoo.money.api.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		30E53A8220338BF500EAE5EF /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05DCB616FBAD89930E3E7137 /* Pods-YooMoneyTestInstrumentsApiTests.appstore.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2752592HU5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = YooMoneyTestInstrumentsApiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yoo.money.api.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		30E53A9720338C3100EAE5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2752592HU5;
+				INFOPLIST_FILE = YooMoneyTestInstrumentsApiExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yoo.money.api.pods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30E53A9820338C3100EAE5EF /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2752592HU5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = YooMoneyTestInstrumentsApiExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yoo.money.api.pods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		30E53A9920338C3100EAE5EF /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2752592HU5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = YooMoneyTestInstrumentsApiExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yoo.money.api.pods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		30E53AA420338C4200EAE5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2752592HU5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/YooMoneyTestInstrumentsApiExample/CarthageInfo.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yoo.money.api.carthage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30E53AA520338C4200EAE5EF /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2752592HU5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/YooMoneyTestInstrumentsApiExample/CarthageInfo.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yoo.money.api.carthage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		30E53AA620338C4200EAE5EF /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2752592HU5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/YooMoneyTestInstrumentsApiExample/CarthageInfo.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.yoo.money.api.carthage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30E53A6020338A4F00EAE5EF /* Build configuration list for PBXProject "YooMoneyTestInstrumentsApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E53A6C20338A4F00EAE5EF /* Debug */,
+				30E53A6D20338A4F00EAE5EF /* AdHoc */,
+				30E53A7120338AB800EAE5EF /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AdHoc;
+		};
+		30E53A6E20338A4F00EAE5EF /* Build configuration list for PBXNativeTarget "YooMoneyTestInstrumentsApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E53A6F20338A4F00EAE5EF /* Debug */,
+				30E53A7020338A4F00EAE5EF /* AdHoc */,
+				30E53A7220338AB800EAE5EF /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AdHoc;
+		};
+		30E53A7F20338BF500EAE5EF /* Build configuration list for PBXNativeTarget "YooMoneyTestInstrumentsApiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E53A8020338BF500EAE5EF /* Debug */,
+				30E53A8120338BF500EAE5EF /* AdHoc */,
+				30E53A8220338BF500EAE5EF /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AdHoc;
+		};
+		30E53A9620338C3100EAE5EF /* Build configuration list for PBXNativeTarget "YooMoneyTestInstrumentsApiExamplePods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E53A9720338C3100EAE5EF /* Debug */,
+				30E53A9820338C3100EAE5EF /* AdHoc */,
+				30E53A9920338C3100EAE5EF /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AdHoc;
+		};
+		30E53AA320338C4200EAE5EF /* Build configuration list for PBXNativeTarget "YooMoneyTestInstrumentsApiExampleCarthage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E53AA420338C4200EAE5EF /* Debug */,
+				30E53AA520338C4200EAE5EF /* AdHoc */,
+				30E53AA620338C4200EAE5EF /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AdHoc;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30E53A5D20338A4F00EAE5EF /* Project object */;
+}

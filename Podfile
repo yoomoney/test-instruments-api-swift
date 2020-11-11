@@ -3,8 +3,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-target 'YandexMoneyTestInstrumentsApiTests' do
-  pod 'YandexMoneyTestInstrumentsApi', :path => './'
+target 'YooMoneyTestInstrumentsApiTests' do
+  pod 'YooMoneyTestInstrumentsApi', :path => './'
 end
 
 post_install do |installer|

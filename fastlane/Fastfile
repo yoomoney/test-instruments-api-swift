@@ -7,7 +7,7 @@ platform :ios do
       clean: true,
       build: true,
       scheme: "YMTestInstrumentsApiExampleFull",
-      workspace: "YandexMoneyTestInstrumentsApi.xcworkspace",
+      workspace: "YooMoneyTestInstrumentsApi.xcworkspace",
       xcargs: "CODE_SIGNING_ALLOWED=NO"
     )
   end
