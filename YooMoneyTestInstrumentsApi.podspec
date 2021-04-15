@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
     s.ios.framework = 'XCTest'
     s.ios.user_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PLATFORM_DIR)/Developer/Library/Frameworks' }
 
-    s.ios.dependency 'FunctionalSwift', '~> 1.2.0'
+    s.ios.dependency 'FunctionalSwift'
     s.ios.dependency 'YooMoneyCoreApi', '~> 1.10'
     s.ios.dependency 'OHHTTPStubs', '~> 8.0.0'
 end
