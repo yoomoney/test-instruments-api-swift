@@ -22,17 +22,13 @@
  * THE SOFTWARE.
  */
 
-import YooMoneyCoreApi
-
-enum Constants {
-    /// Api method key for test host provider
-    public static let testApiMethodsKey = "testApiMethodKey"
-}
-
-// MARK: - HostProvider
-
-struct TestHostProvider: HostProvider {
-    public func host(for key: String) throws -> String {
-        return Constants.testApiMethodsKey
-    }
+enum PaymentMethodType: String, Encodable {
+    case bankCard = "bank_card"
+    case cash
+    case qiwi
+    case alfabank
+    case webmoney
+    case sberbank
+    case applePay = "apple_pay"
+    case yooMoney = "yoo_money"
 }

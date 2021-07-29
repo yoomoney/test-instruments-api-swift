@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "30E53A9A20338C4200EAE5EF"
-               BuildableName = "YooMoneyTestInstrumentsApiExampleCarthage.app"
-               BlueprintName = "YooMoneyTestInstrumentsApiExampleCarthage"
-               ReferencedContainer = "container:YooMoneyTestInstrumentsApi.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "30E53A8620338C3100EAE5EF"
-               BuildableName = "YooMoneyTestInstrumentsApiExamplePods.app"
-               BlueprintName = "YooMoneyTestInstrumentsApiExamplePods"
+               BlueprintIdentifier = "30E53A6520338A4F00EAE5EF"
+               BuildableName = "YooMoneyTestInstrumentsApi.framework"
+               BlueprintName = "YooMoneyTestInstrumentsApi"
                ReferencedContainer = "container:YooMoneyTestInstrumentsApi.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -41,15 +27,6 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "30E53A8620338C3100EAE5EF"
-            BuildableName = "YooMoneyTestInstrumentsApiExamplePods.app"
-            BlueprintName = "YooMoneyTestInstrumentsApiExamplePods"
-            ReferencedContainer = "container:YooMoneyTestInstrumentsApi.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <Testables>
       </Testables>
    </TestAction>
@@ -63,6 +40,10 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <LocationScenarioReference
+         identifier = "com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier"
+         referenceType = "1">
+      </LocationScenarioReference>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "AdHoc"
@@ -73,9 +54,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "30E53A9A20338C4200EAE5EF"
-            BuildableName = "YooMoneyTestInstrumentsApiExampleCarthage.app"
-            BlueprintName = "YooMoneyTestInstrumentsApiExampleCarthage"
+            BlueprintIdentifier = "30E53A6520338A4F00EAE5EF"
+            BuildableName = "YooMoneyTestInstrumentsApi.framework"
+            BlueprintName = "YooMoneyTestInstrumentsApi"
             ReferencedContainer = "container:YooMoneyTestInstrumentsApi.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

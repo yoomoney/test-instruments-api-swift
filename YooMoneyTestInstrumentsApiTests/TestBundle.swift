@@ -22,17 +22,8 @@
  * THE SOFTWARE.
  */
 
-import YooMoneyCoreApi
+import Foundation
 
-enum Constants {
-    /// Api method key for test host provider
-    public static let testApiMethodsKey = "testApiMethodKey"
-}
-
-// MARK: - HostProvider
-
-struct TestHostProvider: HostProvider {
-    public func host(for key: String) throws -> String {
-        return Constants.testApiMethodsKey
-    }
+class TestBundle {
+    static let bundle = Bundle(for: TestBundle.self)
 }

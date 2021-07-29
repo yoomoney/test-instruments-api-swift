@@ -1,44 +1,16 @@
 PODS:
-  - FunctionalSwift (1.2.0)
-  - OHHTTPStubs (8.0.0):
-    - OHHTTPStubs/Default (= 8.0.0)
-  - OHHTTPStubs/Core (8.0.0)
-  - OHHTTPStubs/Default (8.0.0):
-    - OHHTTPStubs/Core
-    - OHHTTPStubs/JSON
-    - OHHTTPStubs/NSURLSession
-    - OHHTTPStubs/OHPathHelpers
-  - OHHTTPStubs/JSON (8.0.0):
-    - OHHTTPStubs/Core
-  - OHHTTPStubs/NSURLSession (8.0.0):
-    - OHHTTPStubs/Core
-  - OHHTTPStubs/OHPathHelpers (8.0.0)
-  - YooMoneyCoreApi (1.9.0):
-    - FunctionalSwift (~> 1.2.0)
-  - YooMoneyTestInstrumentsApi (2.0.0):
-    - FunctionalSwift (~> 1.2.0)
-    - OHHTTPStubs (~> 8.0.0)
-    - YooMoneyCoreApi (~> 1.9.0)
+  - SwiftLint (0.40.3)
 
 DEPENDENCIES:
-  - YooMoneyTestInstrumentsApi (from `./`)
+  - SwiftLint
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - FunctionalSwift
-    - OHHTTPStubs
-    - YooMoneyCoreApi
-
-EXTERNAL SOURCES:
-  YooMoneyTestInstrumentsApi:
-    :path: "./"
+    - SwiftLint
 
 SPEC CHECKSUMS:
-  FunctionalSwift: 1b839fcf50b8db067885938df54f818518356dbb
-  OHHTTPStubs: 9cbce6364bec557cc3439aa6bb7514670d780881
-  YooMoneyCoreApi: 4f40673a79d11e95af850bb97f264995ac47a873
-  YooMoneyTestInstrumentsApi: dab803d47c0f72909719cb53319d25491d0aaba1
+  SwiftLint: dfd554ff0dff17288ee574814ccdd5cea85d76f7
 
-PODFILE CHECKSUM: b5ae247f0031d1db3cc1a1259cad3af29e8c03a6
+PODFILE CHECKSUM: c73bfaa3d6638a424cbac2abc6e4f1f061c3ffb2
 
 COCOAPODS: 1.10.0

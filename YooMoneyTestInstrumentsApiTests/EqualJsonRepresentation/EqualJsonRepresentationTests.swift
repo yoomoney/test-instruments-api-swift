@@ -22,17 +22,38 @@
  * THE SOFTWARE.
  */
 
-import YooMoneyCoreApi
+import Foundation
+import XCTest
+@testable import YooMoneyTestInstrumentsApi
 
-enum Constants {
-    /// Api method key for test host provider
-    public static let testApiMethodsKey = "testApiMethodKey"
-}
+class EqualJsonRepresentationTests: YooMoneyTestInstrumentsApiTests {
 
-// MARK: - HostProvider
+    func testEqualJsonRepresentation() {
+        let bankCard = PaymentMethodBankCard(
+            first6: "427918",
+            last4: "7918",
+            expiryYear: "2017",
+            expiryMonth: "07",
+            cardType: .masterCard
+        )
 
-struct TestHostProvider: HostProvider {
-    public func host(for key: String) throws -> String {
-        return Constants.testApiMethodsKey
+        let paymentMethod = PaymentMethod(
+            type: .bankCard,
+            id: "1da5c87d-0984-50e8-a7f3-8de646dd9ec9",
+            saved: true,
+            title: "Основная карта",
+            cscRequired: true,
+            card: bankCard
+        )
+
+        guard
+            let jsonFileUrl = TestBundle.bundle.url(forResource: "PaymentMethod", withExtension: "json"),
+            let data = try? Data(contentsOf: jsonFileUrl)
+        else {
+            XCTFail("Couldn't find PaymentMethod.json file")
+            return
+        }
+
+        XCTAssertEqualJsonRepresentation(paymentMethod, data: data)
     }
 }
