@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25B9431426C66BF100B433AA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B9431326C66BF100B433AA /* XCTest.framework */; platformFilter = ios; };
+		25B9431526C66BF100B433AA /* XCTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25B9431326C66BF100B433AA /* XCTest.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		30E53A6B20338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E53A6920338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30E53A7A20338BF500EAE5EF /* YooMoneyTestInstrumentsApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E53A7920338BF500EAE5EF /* YooMoneyTestInstrumentsApiTests.swift */; };
 		30E53A9C20338C4200EAE5EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E53A8B20338C3100EAE5EF /* ViewController.swift */; };
@@ -55,6 +57,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		25B9431626C66BF100B433AA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				25B9431526C66BF100B433AA /* XCTest.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3AB2FCB026A82BD100A69DCD /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -72,6 +85,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		25B9431326C66BF100B433AA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		30564C80255C02BB000A7ED3 /* CarthageInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CarthageInfo.plist; sourceTree = "<group>"; };
 		30E53A6620338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YooMoneyTestInstrumentsApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E53A6920338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YooMoneyTestInstrumentsApi.h; sourceTree = "<group>"; };
@@ -121,6 +135,7 @@
 				3AB2FC9B26A82AF700A69DCD /* FunctionalSwift.xcframework in Frameworks */,
 				3AB2FC9726A82AE100A69DCD /* YooMoneyCoreApi.xcframework in Frameworks */,
 				3AB2FC9226A82ACA00A69DCD /* OHHTTPStubs.xcframework in Frameworks */,
+				25B9431426C66BF100B433AA /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +237,7 @@
 		3E41A244D30C4963B70748E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				25B9431326C66BF100B433AA /* XCTest.framework */,
 				3AB2FCD526A8339E00A69DCD /* YooMoneyTestInstrumentsApi.xcframework */,
 				3AB2FC9A26A82AF700A69DCD /* FunctionalSwift.xcframework */,
 				3AB2FC9626A82AE100A69DCD /* YooMoneyCoreApi.xcframework */,
@@ -286,6 +302,7 @@
 				30E53A6220338A4F00EAE5EF /* Frameworks */,
 				30E53A6320338A4F00EAE5EF /* Headers */,
 				30E53A6420338A4F00EAE5EF /* Resources */,
+				25B9431626C66BF100B433AA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
