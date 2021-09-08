@@ -5,6 +5,11 @@
 ### NEXT_VERSION_DESCRIPTION_BEGIN
 ### NEXT_VERSION_DESCRIPTION_END
 
+## [3.0.0] (08-09-2021)
+
+* Обновление ios deployment_target 10.0
+* Убраны ворнинги
+
 ## [2.2.3] (29-07-2021)
 
 * В .gitignore добавлена папка build

@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25B9431426C66BF100B433AA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B9431326C66BF100B433AA /* XCTest.framework */; platformFilter = ios; };
-		25B9431526C66BF100B433AA /* XCTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25B9431326C66BF100B433AA /* XCTest.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		30E53A6B20338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E53A6920338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30E53A7A20338BF500EAE5EF /* YooMoneyTestInstrumentsApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E53A7920338BF500EAE5EF /* YooMoneyTestInstrumentsApiTests.swift */; };
 		30E53A9C20338C4200EAE5EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E53A8B20338C3100EAE5EF /* ViewController.swift */; };
@@ -57,17 +55,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		25B9431626C66BF100B433AA /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				25B9431526C66BF100B433AA /* XCTest.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3AB2FCB026A82BD100A69DCD /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,7 +72,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		25B9431326C66BF100B433AA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		30564C80255C02BB000A7ED3 /* CarthageInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CarthageInfo.plist; sourceTree = "<group>"; };
 		30E53A6620338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YooMoneyTestInstrumentsApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E53A6920338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YooMoneyTestInstrumentsApi.h; sourceTree = "<group>"; };
@@ -135,7 +121,6 @@
 				3AB2FC9B26A82AF700A69DCD /* FunctionalSwift.xcframework in Frameworks */,
 				3AB2FC9726A82AE100A69DCD /* YooMoneyCoreApi.xcframework in Frameworks */,
 				3AB2FC9226A82ACA00A69DCD /* OHHTTPStubs.xcframework in Frameworks */,
-				25B9431426C66BF100B433AA /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +222,6 @@
 		3E41A244D30C4963B70748E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				25B9431326C66BF100B433AA /* XCTest.framework */,
 				3AB2FCD526A8339E00A69DCD /* YooMoneyTestInstrumentsApi.xcframework */,
 				3AB2FC9A26A82AF700A69DCD /* FunctionalSwift.xcframework */,
 				3AB2FC9626A82AE100A69DCD /* YooMoneyCoreApi.xcframework */,
@@ -302,7 +286,6 @@
 				30E53A6220338A4F00EAE5EF /* Frameworks */,
 				30E53A6320338A4F00EAE5EF /* Headers */,
 				30E53A6420338A4F00EAE5EF /* Resources */,
-				25B9431626C66BF100B433AA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -356,20 +339,25 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = YooMoney;
 				TargetAttributes = {
 					30E53A6520338A4F00EAE5EF = {
 						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = 2752592HU5;
 						LastSwiftMigration = 1030;
+						ProvisioningStyle = Manual;
 					};
 					30E53A7620338BF500EAE5EF = {
 						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = 2752592HU5;
 						LastSwiftMigration = 1030;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					30E53A9A20338C4200EAE5EF = {
+						DevelopmentTeam = 2752592HU5;
 						LastSwiftMigration = 1030;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -515,6 +503,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -542,7 +531,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -579,6 +568,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -600,7 +590,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -627,7 +617,7 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				INFOPLIST_FILE = YooMoneyTestInstrumentsApi/Info.plist;
@@ -652,18 +642,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2752592HU5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				INFOPLIST_FILE = YooMoneyTestInstrumentsApi/Info.plist;
@@ -675,7 +664,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.yoo.money.api.testInstruments;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -708,6 +697,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -729,7 +719,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -756,7 +746,7 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				INFOPLIST_FILE = YooMoneyTestInstrumentsApi/Info.plist;
@@ -787,10 +777,9 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/YooMoneyTestInstrumentsApiExample/CarthageInfo.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -833,18 +822,17 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2752592HU5;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -855,7 +843,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/YooMoneyTestInstrumentsApiExample/CarthageInfo.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -863,7 +850,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.yoo.money.api.carthage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Yoo Wild";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -914,7 +902,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -925,7 +913,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/YooMoneyTestInstrumentsApiExample/CarthageInfo.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -949,6 +936,7 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = YooMoneyTestInstrumentsApiTests/Info.plist;
 				PRODUCT_NAME = YooMoneyTestInstrumentsApiTests;
 			};
 			name = Debug;
@@ -956,13 +944,18 @@
 		3AB2FCBA26A82D0400A69DCD /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 2752592HU5;
+				INFOPLIST_FILE = YooMoneyTestInstrumentsApiTests/Info.plist;
 				PRODUCT_NAME = YooMoneyTestInstrumentsApiTests;
+				PROVISIONING_PROFILE = "";
 			};
 			name = AdHoc;
 		};
 		3AB2FCBB26A82D0400A69DCD /* AppStore */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				INFOPLIST_FILE = YooMoneyTestInstrumentsApiTests/Info.plist;
 				PRODUCT_NAME = YooMoneyTestInstrumentsApiTests;
 			};
 			name = AppStore;
