@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import YooMoneyTestInstrumentsApi
 
 class ViewController: UIViewController {
 

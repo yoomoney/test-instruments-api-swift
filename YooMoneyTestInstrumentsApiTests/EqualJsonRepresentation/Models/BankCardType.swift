@@ -22,17 +22,20 @@
  * THE SOFTWARE.
  */
 
-import YooMoneyCoreApi
-
-enum Constants {
-    /// Api method key for test host provider
-    public static let testApiMethodsKey = "testApiMethodKey"
-}
-
-// MARK: - HostProvider
-
-struct TestHostProvider: HostProvider {
-    public func host(for key: String) throws -> String {
-        return Constants.testApiMethodsKey
-    }
+enum BankCardType: String, Encodable {
+    case masterCard = "MasterCard"
+    case visa = "Visa"
+    case mir = "MIR"
+    case americanExpress = "AmericanExpress"
+    case jcb = "JCB"
+    case cup = "CUP"
+    case dinersClub = "DinersClub"
+    case bankCard = "BankCard"
+    case discoverCard = "DiscoverCard"
+    case instaPayment = "InstaPayment"
+    case laser = "Laser"
+    case dankort = "Dankort"
+    case solo = "Solo"
+    case `switch` = "Switch"
+    case unknown = "Unknown"
 }

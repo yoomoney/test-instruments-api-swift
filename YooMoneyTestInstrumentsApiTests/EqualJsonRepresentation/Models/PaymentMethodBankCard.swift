@@ -22,17 +22,41 @@
  * THE SOFTWARE.
  */
 
-import YooMoneyCoreApi
+struct PaymentMethodBankCard: Encodable {
+    let first6: String
+    let last4: String
+    let expiryYear: String
+    let expiryMonth: String
+    let cardType: BankCardType
 
-enum Constants {
-    /// Api method key for test host provider
-    public static let testApiMethodsKey = "testApiMethodKey"
-}
+    init(
+        first6: String,
+        last4: String,
+        expiryYear: String,
+        expiryMonth: String,
+        cardType: BankCardType
+    ) {
+        self.first6 = first6
+        self.last4 = last4
+        self.expiryYear = expiryYear
+        self.expiryMonth = expiryMonth
+        self.cardType = cardType
+    }
 
-// MARK: - HostProvider
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encode(first6, forKey: .first6)
+        try container.encode(last4, forKey: .last4)
+        try container.encode(expiryYear, forKey: .expiryYear)
+        try container.encode(expiryMonth, forKey: .expiryMonth)
+        try container.encode(cardType, forKey: .cardType)
+    }
 
-struct TestHostProvider: HostProvider {
-    public func host(for key: String) throws -> String {
-        return Constants.testApiMethodsKey
+    private enum CodingKeys: String, CodingKey {
+        case first6
+        case last4
+        case expiryYear = "expiry_year"
+        case expiryMonth = "expiry_month"
+        case cardType = "card_type"
     }
 }

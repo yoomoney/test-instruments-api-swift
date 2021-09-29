@@ -1,2 +1,2 @@
 github "AliSoftware/OHHTTPStubs" ~> 8.0.0
-github "yoomoney/core-api-swift" ~> 1.9.0
+github "yoomoney/core-api-swift" ~> 2.0
