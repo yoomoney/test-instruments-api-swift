@@ -5,6 +5,10 @@
 ### NEXT_VERSION_DESCRIPTION_BEGIN
 ### NEXT_VERSION_DESCRIPTION_END
 
+## [3.0.1] (08-10-2021)
+
+* Update library dependecies. Enable swift library evolution.
+
 ## [3.0.0] (08-09-2021)
 
 * Обновление ios deployment_target 10.0

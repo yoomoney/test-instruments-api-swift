@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25D274C72704DF0E00555B46 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255F2AA72704BFEB00BF4354 /* XCTest.framework */; };
 		30E53A6B20338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E53A6920338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30E53A7A20338BF500EAE5EF /* YooMoneyTestInstrumentsApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E53A7920338BF500EAE5EF /* YooMoneyTestInstrumentsApiTests.swift */; };
 		30E53A9C20338C4200EAE5EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E53A8B20338C3100EAE5EF /* ViewController.swift */; };
@@ -72,6 +73,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		255F2AA62704BDF600BF4354 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		255F2AA72704BFEB00BF4354 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		30564C80255C02BB000A7ED3 /* CarthageInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CarthageInfo.plist; sourceTree = "<group>"; };
 		30E53A6620338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YooMoneyTestInstrumentsApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E53A6920338A4F00EAE5EF /* YooMoneyTestInstrumentsApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YooMoneyTestInstrumentsApi.h; sourceTree = "<group>"; };
@@ -118,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25D274C72704DF0E00555B46 /* XCTest.framework in Frameworks */,
 				3AB2FC9B26A82AF700A69DCD /* FunctionalSwift.xcframework in Frameworks */,
 				3AB2FC9726A82AE100A69DCD /* YooMoneyCoreApi.xcframework in Frameworks */,
 				3AB2FC9226A82ACA00A69DCD /* OHHTTPStubs.xcframework in Frameworks */,
@@ -150,6 +154,7 @@
 		30E53A5C20338A4F00EAE5EF = {
 			isa = PBXGroup;
 			children = (
+				255F2AA62704BDF600BF4354 /* CHANGELOG.md */,
 				30E53AAB20338C9100EAE5EF /* Cartfile */,
 				30E53AAC20338C9200EAE5EF /* Gemfile */,
 				30E53AA920338C9100EAE5EF /* LICENSE */,
@@ -222,6 +227,7 @@
 		3E41A244D30C4963B70748E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				255F2AA72704BFEB00BF4354 /* XCTest.framework */,
 				3AB2FCD526A8339E00A69DCD /* YooMoneyTestInstrumentsApi.xcframework */,
 				3AB2FC9A26A82AF700A69DCD /* FunctionalSwift.xcframework */,
 				3AB2FC9626A82AE100A69DCD /* YooMoneyCoreApi.xcframework */,
@@ -482,6 +488,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -517,6 +524,7 @@
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -547,6 +555,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -582,6 +591,7 @@
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -631,7 +641,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -666,7 +676,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -676,6 +686,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -711,6 +722,7 @@
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -760,7 +772,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
