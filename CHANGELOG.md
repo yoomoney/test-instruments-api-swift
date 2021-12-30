@@ -5,6 +5,10 @@
 ### NEXT_VERSION_DESCRIPTION_BEGIN
 ### NEXT_VERSION_DESCRIPTION_END
 
+## [3.1.0] (30-12-2021)
+
+* Проект адаптирован для сборки в Xcode 13
+
 ## [3.0.1] (08-10-2021)
 
 * Update library dependecies. Enable swift library evolution.
